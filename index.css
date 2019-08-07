@@ -1,0 +1,116 @@
+header {
+    height: 60px;
+    background-color: #24292e;
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 16px;
+}
+
+.topnav {
+    background-color: gray;
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    text-decoration-line: none;
+}
+body {
+   height: 300vh;
+
+}
+h3 {
+    font-size: 17px;
+    color: royalblue;
+    font-family: helvetica;
+}
+p {
+    font-size: 11px;
+    font-family: arial;
+}
+header > div {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img {
+    width: 30px;
+    margin-right: 20px;
+}
+header ul {
+    display: flex;
+      list-style: none;
+        margin: 20px;
+    justify-content: space-around;
+}
+header li {
+    display: inline-block;
+    justify-content: space-evenly;
+    padding: 5px 5px;
+    align-items: center;
+}
+header li a {
+    color: white;
+    font-weight: normal;
+    padding: 10px 5px;
+    font-size: 1em;
+    font-family: arial;
+}
+
+main {
+    height: 900px;
+    display: flex;
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: space-between;
+}
+.profile > img {
+    width: 240px;
+    margin: 20px
+}
+
+.profile {
+    displayfloat: left;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+
+}
+main > ul {
+
+
+}
+main li {
+    margin: 30px;
+    font-family: helvetica;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+.Popular {
+  border-spacing: 11px;
+    border-spacing: 11px;
+    display: table;
+    width: 100%;
+}
+
+
+.Popular ul {
+  display: table-row;
+}
+
+.Popular li {
+  background-color: white;
+  border: 1px solid grey;
+  display: table-cell;
+  padding: 10px;
+  vertical-align: center;
+  width: 33.333%;
+}
